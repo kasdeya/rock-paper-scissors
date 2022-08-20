@@ -1,0 +1,58 @@
+button {
+  font-size: 10em;
+  background: transparent;
+  border: transparent;
+  color: rgba(0, 0, 0, 80%);
+}
+
+#choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player-score {
+  padding: 2%;
+  color: #9ece6a;
+}
+
+#draw-score {
+  padding: 2%;
+  color: #73daca;
+}
+
+#computer-score {
+  padding: 2%;
+  color: #2ac3de;
+}
+
+#log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  color: rgba(0, 0, 0, 80%);
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 100%);
+}
+
+* {
+  background: #1a1b26;
+  color: #9aa5ce;
+}
+
+body,
+html {
+  padding-top: 10%;
+}
